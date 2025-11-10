@@ -42,3 +42,4 @@ draw.Draw(img, img.Bounds(), &image.Uniform{color.RGBA{255, 0, 0, 255}}, image.Z
 w.Header().Set("Content-Type", "image/png")
 png.Encode(w, img)
 }
+// Trigger production build
